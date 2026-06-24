@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muskan Thapa | Portfolio</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body{
+            background:#fff;
+            color:#555;
+            line-height:1.6;
+        }
+
+        header{
+            background:#ffd6e7;
+            color:#7a4f62;
+            text-align:center;
+            padding:70px 20px;
+        }
+
+        header h1{
+            font-size:3rem;
+            margin-bottom:10px;
+        }
+
+        header p{
+            font-size:1.2rem;
+        }
+
+        nav{
+            background:#ffc2d8;
+            text-align:center;
+            padding:15px;
+        }
+
+        nav a{
+            color:#7a4f62;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:600;
+            transition:0.3s;
+        }
+
+        nav a:hover{
+            color:#fff;
+        }
+
+        section{
+            max-width:1000px;
+            margin:40px auto;
+            padding:20px;
+        }
+
+        .card{
+            background:#fff;
+            border:2px solid #ffd6e7;
+            border-radius:20px;
+            padding:25px;
+            box-shadow:0 4px 12px rgba(255,182,193,0.2);
+            margin-bottom:20px;
+        }
+
+        h2{
+            color:#e88aa8;
+            margin-bottom:15px;
+        }
+
+        .projects{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+        }
+
+        .project{
+            background:#fff7fa;
+            border:2px solid #ffd6e7;
+            border-radius:20px;
+            padding:20px;
+            transition:0.3s;
+        }
+
+        .project:hover{
+            transform:translateY(-5px);
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:15px;
+            padding:12px 24px;
+            background:#ffb6c1;
+            color:white;
+            text-decoration:none;
+            border-radius:30px;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#e88aa8;
+        }
+
+        footer{
+            background:#ffd6e7;
+            color:#7a4f62;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Muskan Thapa</h1>
+    <p>Web Developer • Designer • Student</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            Hi! I'm Muskan Thapa. I enjoy creating beautiful websites and learning
+            new technologies. Welcome to my portfolio website.
+        </p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="projects">
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio built with HTML and CSS.</p>
+        </div>
+
+        <div class="project">
+            <h3>Calculator App</h3>
+            <p>A simple calculator created using JavaScript.</p>
+        </div>
+
+        <div class="project">
+            <h3>To-Do List</h3>
+            <p>A task management app with a clean interface.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card">
+        <h2>Contact Me</h2>
+        <p>Email: muskan@example.com</p>
+        <p>Phone: +977-XXXXXXXXXX</p>
+
+        <a href="mailto:muskan@example.com" class="btn">Contact Me</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Muskan Thapa. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
